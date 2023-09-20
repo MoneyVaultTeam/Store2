@@ -1,0 +1,22 @@
+sudo apt-get install python3-pip (press enter)
+sudo apt-get install tmux (press enter)
+.
+INSTALL REQUIRED LIBRARIES FOR BOT
+
+pip3 install python-telegram-bot
+pip3 install pysqlite3
+pip3 install Pillow
+pip3 install coinbase-commerce
+.
+HOW TO RUN BOT'S SCRIPT
+ls (press enter)
+cd foldername (press enter)
+tmux (press enter)
+python3 filename.py (press enter)
+.
+TO CHECK TMUX SESSIONS
+tmux ls (press enter)
+TO ATTACH SESSION
+tmux attach-session -t X (replace X with sessionname)
+TO KILL SESSION
+tmux kill-session -t X (replace X with sessionname)
